@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5736512712252459867" datatype="html">
+        <source>next</source>
+        <target>next eh?</target>
+
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/demo/demo.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/questions/questions.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/what-is/what-is.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6095534740119293938" datatype="html">
+        <source>previous</source>
+        <target>previous eh?</target>
+
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/demo/demo.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/questions/questions.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thanks/thanks.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/what-is/what-is.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608890834230007808" datatype="html">
+        <source>done</source>
+        <target>done eh?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thanks/thanks.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9053919568595079799" datatype="html">
+        <source>🇺🇸</source>
+        <target state="translated">🇨🇦🇬🇧</target>
+
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7227810173387581443" datatype="html">
+        <source>Hello, how are you?</source>
+        <target state="translated">Oops, sorry there friend</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7316391083351511601" datatype="html">
+        <source>Hi, I'm good.</source>
+        <target state="translated">It's okay buddy, you catch the game?</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3949366432652561482" datatype="html">
+        <source>What's new with you?</source>
+        <target state="translated">Yep, it was a real barn burner!</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9090039267906661122" datatype="html">
+        <source>
+          I bought this hoody for
+          <x id="INTERPOLATION" equiv-text="{{ hoodyCost | currency }}" />
+        </source>
+        <target state="translated">
+          No doubt aboot it! I bought this bunnyhug for
+          <x id="INTERPOLATION" equiv-text="{{ hoodyCost | currency }}" />
+        </target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="271433218188500790" datatype="html">
+        <source>It looks good on you!</source>
+        <target state="translated">Noice, its a beaut!</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="202315658200444781" datatype="html">
+        <source>http://localhost:1337/intro</source>
+        <target state="translated">http://localhost:1337/greetings</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2502443150993127739" datatype="html">
+        <source>http://localhost:2337/greetings</source>
+        <target state="translated">http://localhost:3337/greetings</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4618412150059885907" datatype="html">
+        <source>What's your Ramones name?</source>
+        <target state="translated">Favourite Hockey Team eh?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5903435968418181090" datatype="html">
+        <source>Enter your name: </source>
+        <target state="translated">What's your name eh?: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target state="translated">Name eh?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2924153815016875801" datatype="html">
+        <source>Your Ramones name is:</source>
+        <target state="translated">Your favourtie hockey team is:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5655817595182674866" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ name }}" />
+          Ramone
+          <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
+        </source>
+        <target state="translated">
+          Montreal Canadians!
+          <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
+          !! congrats
+          <x id="INTERPOLATION" equiv-text="{{ name }}" />
+          eh?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7521919142513628838" datatype="html">
+        <source>http://localhost:3337/greetings</source>
+        <target state="translated">http://localhost:1337/quiz</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4754920439766853712" datatype="html">
+        <source>http://localhost:2337/quiz</source>
+        <target state="translated">http://localhost:1337/team-canada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3447642537062856395" datatype="html">
+        <source> rock on</source>
+        <target state="translated"> D-FENCE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1660420570524500821" datatype="html">
+        <source> party on</source>
+        <target state="translated"> GO HABS GO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1392641102864588739" datatype="html">
+        <source> right on</source>
+        <target state="translated"> GO HABS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1822484600385909123" datatype="html">
+        <source> righteous</source>
+        <target state="translated"> Ole Ole Ole</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7538215521923106575" datatype="html">
+        <source> gnarly</source>
+        <target state="translated"> HOCKEY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5612606625584385876" datatype="html">
+        <source> tublar</source>
+        <target state="translated"> tire et le but!!!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9044862958710665130" datatype="html">
+        <source> way cool</source>
+        <target state="translated"> way cool</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2241300523343491391" datatype="html">
+        <source> awesome</source>
+        <target state="translated"> awesome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="907568240240264738" datatype="html">
+        <source> groovy</source>
+        <target state="translated"> groovy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4089888912629703885" datatype="html">
+        <source> outrageous</source>
+        <target state="translated"> outrageous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8733804408339377285" datatype="html">
+        <source> funky</source>
+        <target state="translated"> funky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3449470480995265380" datatype="html">
+        <source> super</source>
+        <target state="translated"> super</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+
+
+      <trans-unit id="3984071274707991914" datatype="html">
+        <source>Welcome to internationalization (i18n)!</source>
+        <target>How to speak Canadian (i18n)! eh?</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2080782591190804075" datatype="html">
+        <source>By AJ</source>
+        <target>By AJ eh?</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7239951618239337716" datatype="html">
+        <source>http://localhost:1337/</source>
+        <target state="translated">http://localhost:1337/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1271260036909559504" datatype="html">
+        <source>http://localhost:2337/</source>
+        <target state="translated">http://localhost:3337/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
