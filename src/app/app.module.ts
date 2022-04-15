@@ -21,6 +21,7 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { reducers, metaReducers } from './store';
+import { RouteModule } from './route/route.module';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { reducers, metaReducers } from './store';
     StoreRouterConnectingModule.forRoot(),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
+    RouteModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
