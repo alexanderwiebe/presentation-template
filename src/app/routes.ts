@@ -11,10 +11,6 @@ export const routes: Routes = [
     component: TitleComponent,
   },
   {
-    path: 'title',
-    component: TitleComponent,
-  },
-  {
     path: 'intro',
     component: IntroComponent,
   },

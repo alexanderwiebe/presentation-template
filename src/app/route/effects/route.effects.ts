@@ -26,5 +26,22 @@ export class RouteEffects {
     );
   });
 
+  navigateRoute$ = createEffect(
+    () => {
+      return this.actions$.pipe(
+        ofType(
+          RouteActions.goToNextPage,
+          RouteActions.goToPreviousPage,
+          RouteActions.goToPage
+        ),
+        map((action) => {
+          console.log(action);
+          return action;
+        })
+      );
+    },
+    { dispatch: false }
+  );
+
   constructor(private actions$: Actions) {}
 }

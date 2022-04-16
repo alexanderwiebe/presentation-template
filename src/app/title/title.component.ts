@@ -4,6 +4,8 @@ import {
   OnInit,
   ViewEncapsulation,
 } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { goToNextPage } from '../route/actions/route.actions';
 
 @Component({
   selector: 'app-title',
@@ -17,7 +19,11 @@ import {
 })
 export class TitleComponent implements OnInit {
   todaysDate = new Date();
-  constructor() {}
+  constructor(private store: Store) {}
 
   ngOnInit(): void {}
+
+  next(): void {
+    this.store.dispatch(goToNextPage());
+  }
 }

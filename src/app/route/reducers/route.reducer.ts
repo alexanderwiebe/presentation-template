@@ -14,11 +14,30 @@ export const initialState: State = {
   currentRoute: 0,
 };
 
-console.log(routes);
-
 export const reducer = createReducer(
   initialState,
 
   on(RouteActions.loadRoutes, (state) => state),
-  on(RouteActions.saveRoute, (state) => ({ ...state }))
+  on(RouteActions.saveRoute, (state) => ({ ...state })),
+  on(RouteActions.goToNextPage, (state) => ({
+    ...state,
+    currentRoute:
+      state.currentRoute < state.routes.length
+        ? state.currentRoute + 1
+        : state.currentRoute,
+  })),
+  on(RouteActions.goToPreviousPage, (state) => ({
+    ...state,
+    currentRoute: state.currentRoute > 0 ? state.currentRoute - 1 : 0,
+  })),
+  on(RouteActions.goToPage, (state, { page }) => {
+    let currentRoute = 0;
+    if (page > 0 && page < state.routes.length) {
+      currentRoute = page;
+    }
+    return {
+      ...state,
+      currentRoute: page,
+    };
+  })
 );

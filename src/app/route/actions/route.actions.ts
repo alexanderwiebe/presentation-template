@@ -12,5 +12,5 @@ export const goToPage = createAction(
   props<{ page: number }>()
 );
 
-export const goToLastPage = createAction('[Route] Go To Last Page');
+export const goToPreviousPage = createAction('[Route] Go To Previous Page');
 export const goToNextPage = createAction('[Route] Go To Next Page');
