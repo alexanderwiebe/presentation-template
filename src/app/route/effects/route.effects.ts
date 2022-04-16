@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Actions, createEffect, ofType } from '@ngrx/effects';
+import { Router } from '@angular/router';
+import { Actions, concatLatestFrom, createEffect, ofType } from '@ngrx/effects';
 import { ROUTER_NAVIGATION } from '@ngrx/router-store';
+import { Store } from '@ngrx/store';
 import { EMPTY, Observable } from 'rxjs';
-import { concatMap, map, tap } from 'rxjs/operators';
+import { concatMap, map } from 'rxjs/operators';
 import * as RouteActions from '../actions/route.actions';
+import { selectCurrentRoute } from '../selectors/route.selectors';
 
 @Injectable()
 export class RouteEffects {
@@ -18,10 +21,8 @@ export class RouteEffects {
   persistRoute$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(ROUTER_NAVIGATION),
-      tap((action) => console.log(action)),
-      map((something) => {
-        console.warn('hey');
-        return RouteActions.saveRoute({ route: something });
+      map((route) => {
+        return RouteActions.saveRoute({ route });
       })
     );
   });
@@ -34,14 +35,16 @@ export class RouteEffects {
           RouteActions.goToPreviousPage,
           RouteActions.goToPage
         ),
-        map((action) => {
-          console.log(action);
-          return action;
-        })
+        concatLatestFrom(() => this.store.select(selectCurrentRoute)),
+        map(([, currentRoute]) => this.router.navigate([currentRoute.path]))
       );
     },
     { dispatch: false }
   );
 
-  constructor(private actions$: Actions) {}
+  constructor(
+    private actions$: Actions,
+    private router: Router,
+    private store: Store
+  ) {}
 }

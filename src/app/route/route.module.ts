@@ -1,18 +1,15 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { StoreModule } from '@ngrx/store';
-import * as fromRoute from './reducers/route.reducer';
+import { NgModule } from '@angular/core';
 import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
 import { RouteEffects } from './effects/route.effects';
-
-
+import * as fromRoute from './reducers/route.reducer';
 
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     StoreModule.forFeature(fromRoute.routeFeatureKey, fromRoute.reducer),
-    EffectsModule.forFeature([RouteEffects])
-  ]
+    EffectsModule.forFeature([RouteEffects]),
+  ],
 })
-export class RouteModule { }
+export class RouteModule {}

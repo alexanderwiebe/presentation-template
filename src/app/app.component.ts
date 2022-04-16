@@ -1,4 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { selectCurrentRoute } from './route/selectors/route.selectors';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +11,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class AppComponent {
   title = 'presentation-i18n';
+  currentRoute$ = new Observable<any>();
+  constructor(private store: Store) {
+    this.currentRoute$ = this.store.select(selectCurrentRoute);
+  }
 }
