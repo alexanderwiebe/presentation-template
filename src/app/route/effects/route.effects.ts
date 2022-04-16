@@ -18,7 +18,7 @@ export class RouteEffects {
   persistRoute$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(ROUTER_NAVIGATION),
-      tap((action) => console.log),
+      tap((action) => console.log(action)),
       map((something) => {
         console.warn('hey');
         return RouteActions.saveRoute({ route: something });

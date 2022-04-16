@@ -6,3 +6,11 @@ export const saveRoute = createAction(
   '[Route] Save Route',
   props<{ route: any }>()
 );
+
+export const goToPage = createAction(
+  '[Route] Go To Page',
+  props<{ page: number }>()
+);
+
+export const goToLastPage = createAction('[Route] Go To Last Page');
+export const goToNextPage = createAction('[Route] Go To Next Page');
