@@ -3,15 +3,15 @@
     <span>{{ (currentRoute$ | async).path }}</span>
   </div>
   <div fxFlex="50%" fxLayoutAlign="end">
-    <span i18n>🇺🇸</span>
+    <span i18n>Bitovi</span>
   </div>
 </div>
 <div class="content">
   <router-outlet></router-outlet>
 </div>
 <div class="footer" fxLayout="row">
-  <div fxFlex="50%">
-    <a routerLink="intro" i18n>previous</a>
+  <div fxFlex="50%" presPrev>
+    <span i18n>previous</span>
   </div>
   <div fxFlex="50%" fxLayoutAlign="end" presNext>
     <span i18n>next</span>

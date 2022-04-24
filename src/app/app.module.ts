@@ -23,6 +23,7 @@ import { RouteModule } from './route/route.module';
 import { metaReducers, reducers } from './store';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
+import { PrevDirective } from './directives/prev.directive';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { TitleComponent } from './title/title.component';
     ThanksComponent,
     GreetingsComponent,
     NextDirective,
+    PrevDirective,
   ],
   imports: [
     BrowserModule,
